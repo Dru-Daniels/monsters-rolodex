@@ -6,3 +6,26 @@
   grid-gap: 20px;
   color:cadetblue;
 }
+
+@media screen and (max-width: 1150px) {
+  
+  .card-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  
+  .card-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+  .card-list {
+    width: 70vw;
+    grid-template-columns: 1fr;
+  }
+}
+
